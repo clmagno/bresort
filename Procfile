@@ -1,1 +1,1 @@
-web: PYTHONPATH=`pwd`/.. gunicorn backend.wsgi:application
+web: gunicorn backend.wsgi

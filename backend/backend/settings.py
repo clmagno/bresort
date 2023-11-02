@@ -92,7 +92,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '41732',
+        'PORT': '3306',
         'OPTIONS': {
             'charset': 'utf8mb4',
             'autocommit': True,

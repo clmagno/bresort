@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -87,11 +88,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '${{MySQL.MYSQL_DATABASE}}',
+        'NAME': 'bra_db',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': '${{MySQL.MYSQLHOST}}',
-        'PORT': '${{MySQL.MYSQLPORT}}',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '41732',
         'OPTIONS': {
             'charset': 'utf8mb4',
             'autocommit': True,

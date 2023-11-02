@@ -1,0 +1,6 @@
+# Environment variables.
+VITE_APP_NAME=Pantukan Waterworld Beach Resort
+VITE_SITE_ADDRESS=8809 MAGNAGA, PANTUKAN
+VITE_APP_LOGO_NAME=pantukan-waterworld-logo.png
+VITE_AUTHORIZATION_KEY=7A8B2C1D9E4F3G6H5I0J7K8L
+VITE_LOGIN_BG=beach-resort-background1.jpg beach-resort-background2.jpg beach-resort-background3.jpg beach-resort-background4.jpg beach-resort-background5.jpg beach-resort-background6.jpg beach-resort-background7.jpg beach-resort-background8.jpg beach-resort-background9.jpg

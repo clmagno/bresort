@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@andresouzaabreu/vue-data-table": "^3.3.3",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "bootstrap-sweetalert": "^1.0.1",
+    "bootstrap-vue": "^2.23.1",
+    "bootstrap-vue-datatable": "^1.0.7",
+    "chart.js": "^4.2.1",
+    "ipify": "^6.0.0",
+    "jspdf": "^2.5.1",
+    "mdb-vue-ui-kit": "^3.2.0",
+    "moment": "^2.29.4",
+    "pdfkit": "^0.13.0",
+    "pinia": "^2.0.33",
+    "pinia-plugin-persist": "^1.0.0",
+    "sweetalert2": "^11.4.8",
+    "vue": "^3.2.47",
+    "vue-bootstrap-modal": "^0.1.13",
+    "vue-chartjs": "^5.2.0",
+    "vue-data-tables": "^3.4.5",
+    "vue-final-modal": "^4.0.9",
+    "vue-html2pdf": "^1.8.0",
+    "vue-multiselect": "^2.1.7",
+    "vue-native-websocket": "^2.0.15",
+    "vue-next-select": "^2.10.5",
+    "vue-router": "^4.1.6",
+    "vue-select": "^4.0.0-beta.6",
+    "vue-select2": "^0.2.6",
+    "vue-simple-calendar": "^6.3.1",
+    "vue-simple-context-menu": "^4.0.4",
+    "vue-sweetalert2": "^5.0.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0"
+  }
+}

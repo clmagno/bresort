@@ -90,8 +90,8 @@ DATABASES = {
         'NAME': 'bra_db',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '41732',
         'OPTIONS': {
             'charset': 'utf8mb4',
             'autocommit': True,

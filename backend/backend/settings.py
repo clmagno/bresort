@@ -87,11 +87,11 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bra_db',
+        'NAME': '${{MySQL.MYSQL_DATABASE}}',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '41732',
+        'HOST': '${{MySQL.MYSQLHOST}}',
+        'PORT': '${{MySQL.MYSQLPORT}}',
         'OPTIONS': {
             'charset': 'utf8mb4',
             'autocommit': True,

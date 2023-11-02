@@ -1,1 +1,1 @@
-web: gunicorn bresort.wsgi
+web: PYTHONPATH=`pwd`/.. gunicorn backend.wsgi:application
